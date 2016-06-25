@@ -1,0 +1,21 @@
+<sp:VideoDetails xmlns:sp="http://xbox.skyplayer.sky.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" genre="movies" id="b1f4bf506b625410VgnVCM1000000b43150a____" xsi:schemaLocation="http://xbox.skyplayer.sky.com/ ../../../harness/schema/VideoDetails.xsd">
+    <Title>Ice Princess</Title>
+    <Image>
+        http://www.asset1.net/tv/pictures/450/250/movie/ice-princess-2004/Ice-Princess-02-DI.jpg
+    </Image>
+    <BroadcastChannel>
+        <Name>Sky Disney</Name>
+    </BroadcastChannel>
+    <DownloadWindows></DownloadWindows>
+    <DownloadInfo>
+        <Downloadable>N</Downloadable>
+    </DownloadInfo>
+    <Synopsis>
+        Buffy and Gossip Girl star Michelle Trachtenberg gets her skates on as Casey, a brainy high schooler who combines her knowledge of physics with her passion for ice skating for a science project. But her mother (Joan Cusack) doesn't approve, and life isn't made any easier by the tough coach (Kim Cattrall) who drives Casey as hard as her own daughter (Hayden Panettiere). Adding a few neat spins to the traditional sports movie formula, this Disney yarn deserves high scores from all judges.
+    </Synopsis>
+    <AvailableActions></AvailableActions>
+    <Details>...</Details>
+    <AdditionalInfo>...</AdditionalInfo>
+    <ExpiryDate>1414799999000</ExpiryDate>
+    <TrackingData></TrackingData>
+</sp:VideoDetails>

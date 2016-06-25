@@ -1,0 +1,89 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sp:PromotionalPage template="list-slots" xmlns:sp="http://xbox.skyplayer.sky.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbox.skyplayer.sky.com/ ../../../harness/schema/Page.xsd">
+    
+    <Title>Most Popular</Title>
+    
+    
+    
+    <PromoSlots>
+        
+        
+        <!-- //Processing #SVODListRow //-->
+        <PromoItems>
+            
+            
+            <item 					   		   							url="/vod/content/GOIOMOVIES/content/videoId/daf3d4e420850510VgnVCM1000000b43150a________/content/videoDetailsPage.do.xml"
+                >
+                <title>Lucy</title>
+                <description>Scarlett Johansson plays a bewildered American who&apos;s shanghaied in Taiwan by an Asian drug gang  only to become superhuman when the drug she&apos;s had sewn into her - a synthetic, brain-boosting hormone - leaks into her system. As the gang try to get their product back, the new Lucy finds her mental capabilities expanding beyond the limit of human comprehension. Morgan Freeman is the neuro-boffin trying to get his head round it all as action maestro Luc Besson conducts his most surprising, head-spinning, and outrageously enjoyable thriller in years.</description>
+                <ShortDescription>Student Scarlett Johansson starts to display superhuman powers when she unwittingly comes under the influence of a new drug. Action.</ShortDescription>
+                <guid>daf3d4e420850510VgnVCM1000000b43150a____</guid>
+                <DownloadInfo>
+                    <Downloadable>Y</Downloadable>
+                    <DownloadAssets>
+                        <DownloadAsset bitRate="32000" fileSize="111155752" />
+                        <DownloadAsset bitRate="64000" fileSize="121188372" />
+                        <DownloadAsset bitRate="125000" fileSize="209531076" />
+                        <DownloadAsset bitRate="175000" fileSize="236327092" />
+                        <DownloadAsset bitRate="250000" fileSize="299952308" />
+                        <DownloadAsset bitRate="450000" fileSize="420555624" />
+                        <DownloadAsset bitRate="650000" fileSize="554536080" />
+                        <DownloadAsset bitRate="950000" fileSize="688514844" />
+                        <DownloadAsset bitRate="1450000" fileSize="1090456964" />
+                    </DownloadAssets>
+                    <DownloadViewingRules>
+                        <DownloadViewingRule licenceType="standard" hoursLicenceDuration="720" hoursToView="48" />
+                    </DownloadViewingRules>
+                </DownloadInfo>
+                <ContentType>Movie</ContentType>
+                <Genre>movies</Genre>
+                <BroadcastChannel>
+                    <Name>Sky Movies</Name>
+                </BroadcastChannel>
+            </item>
+												
+                                                
+                                                <item 					   		   							url="/vod/content/GOIOMOVIES/content/videoId/b5eb9bc648040510VgnVCM1000000b43150a________/content/videoDetailsPage.do.xml"
+                                                    >
+                                                    <title>American Sniper</title>
+                                                    <description>Director Clint Eastwood and his Oscar-nominated star Bradley Cooper pack some serious firepower in the story of Navy SEAL hero Chris Kyle,  the deadliest sniper in US military history. After 30 years of hard Texas living, Kyle&apos;s sharpshooting earned him legendary status in Iraq - to comrades and enemy alike. But over four gruelling tours of duty, Kyle found his loyalties increasingly torn between his country and his wife (Sienna Miller) and family back home. From acting to action, Eastwood&apos;s pulsating biopic hits every target.</description>
+                                                    <ShortDescription>Bradley Cooper takes on the role of Chris Kyle, the deadliest marksman in US military history. Oscar-nominated biopic.</ShortDescription>
+                                                    <guid>b5eb9bc648040510VgnVCM1000000b43150a____</guid>
+                                                    <DownloadInfo>
+                                                        <Downloadable>Y</Downloadable>
+                                                        <DownloadAssets>
+                                                            <DownloadAsset bitRate="32000" fileSize="160758988" />
+                                                            <DownloadAsset bitRate="64000" fileSize="175651784" />
+                                                            <DownloadAsset bitRate="125000" fileSize="306788364" />
+                                                            <DownloadAsset bitRate="175000" fileSize="346564840" />
+                                                            <DownloadAsset bitRate="250000" fileSize="441010024" />
+                                                            <DownloadAsset bitRate="450000" fileSize="620034152" />
+                                                            <DownloadAsset bitRate="650000" fileSize="818915592" />
+                                                            <DownloadAsset bitRate="950000" fileSize="1017796656" />
+                                                            <DownloadAsset bitRate="1450000" fileSize="1614439848" />
+                                                        </DownloadAssets>
+                                                        <DownloadViewingRules>
+                                                            <DownloadViewingRule licenceType="standard" hoursLicenceDuration="720" hoursToView="48" />
+                                                        </DownloadViewingRules>
+                                                    </DownloadInfo>
+                                                    <ContentType>Movie</ContentType>
+                                                    <Genre>movies</Genre>
+                                                    <BroadcastChannel>
+                                                        <Name>Sky Movies</Name>
+                                                    </BroadcastChannel>
+                                                </item>
+                                        
+        </PromoItems>
+        
+        
+        
+    </PromoSlots>
+    
+    <TrackingData>
+    </TrackingData>
+    
+    
+</sp:PromotionalPage>
+

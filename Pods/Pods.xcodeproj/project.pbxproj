@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AAEB87A4B5216DA80A3B33AC521040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		182E3526C9B2A37086DA88D03D4A991E /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		287FD2AA8045087C5A984AE2F55FF89C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3F389733E84188BFDDDFB4766188FC67 /* Pods-SkyGo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 053E057DE044383AEF71F0D3C393CF18 /* Pods-SkyGo-dummy.m */; };
+		4A92A2AF865C84DF5602A8341A02514F /* TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */; };
+		562E25D956533B83AA2EFF415F83D5DE /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8171EC78ECE71947090E1B090424E439 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		822CF9E92DB90009DEBCC1D73F4A82D5 /* Pods-SkyGoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C923185E15E2F839AA90319EE42AE5B1 /* Pods-SkyGoTests-dummy.m */; };
+		9BE8A4D4F60CC0F93139326D6ABA2A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CB803CB5BCD319AAF77035867F7D550E /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5FECDA13F1E860162D2D0164219E76 /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC66EA226F00B9C3C6BBA1EE3B3E1FBE /* Pods-SkyGoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE82F9F46ED4924C776B86EA888B065 /* Pods-SkyGoUITests-dummy.m */; };
+		E3D98A05FD59919977CFE39500098610 /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDABD69622F8852BE261190B75B564AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224414AA22AF8FE1677D2506A181076C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57881A6379818927A70831B4C00BDD6E;
+			remoteInfo = TBXML;
+		};
+		2EE91F23238C64FF20A1ECD6D2018E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57881A6379818927A70831B4C00BDD6E;
+			remoteInfo = TBXML;
+		};
+		51FDC2D8BE16EE214D76105330890E67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57881A6379818927A70831B4C00BDD6E;
+			remoteInfo = TBXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053E057DE044383AEF71F0D3C393CF18 /* Pods-SkyGo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyGo-dummy.m"; sourceTree = "<group>"; };
+		110347976932FB3A1092BAA7E61D39E6 /* libPods-SkyGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A1AA9C6E2AAD401C08F5ECB326EF73 /* Pods-SkyGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+Compression.h"; path = "TBXML-Headers/TBXML+Compression.h"; sourceTree = "<group>"; };
+		261B9636F9EF5619A156008183811F91 /* Pods-SkyGoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyGoUITests-resources.sh"; sourceTree = "<group>"; };
+		2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+HTTP.m"; path = "TBXML-Code/TBXML+HTTP.m"; sourceTree = "<group>"; };
+		3A97E35440BDF283D458912ED4C4388A /* Pods-SkyGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FAB63E1D47A46973FEFD5E41804C494 /* Pods-SkyGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyGo.debug.xcconfig"; sourceTree = "<group>"; };
+		40A84AFDBB4707E7E705F23171406C20 /* Pods-SkyGo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyGo-acknowledgements.plist"; sourceTree = "<group>"; };
+		433C90E5BA2FB67D1A5E88EDFF255665 /* Pods-SkyGo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyGo-frameworks.sh"; sourceTree = "<group>"; };
+		45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+Compression.m"; path = "TBXML-Code/TBXML+Compression.m"; sourceTree = "<group>"; };
+		4A7784489AD57ACB6FDEEC02B4712395 /* libPods-SkyGoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyGoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85930C4C75281FC1E2605BA4AC478E5E /* TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBXML-prefix.pch"; sourceTree = "<group>"; };
+		922A7119B4C794372D5CF48ABEBD5293 /* Pods-SkyGoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyGoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9256512CD547F598B9305030E21704CF /* libTBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTBXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C63786ADBCA7D283DAB9B7007E8563 /* Pods-SkyGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyGo.release.xcconfig"; sourceTree = "<group>"; };
+		A50AA3155A9ED578D88A7AB20BAB678F /* Pods-SkyGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A599AFFC80AA8083A2DCEC14B6BF8B8E /* libPods-SkyGoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyGoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = "TBXML-Headers/TBXML.h"; sourceTree = "<group>"; };
+		B53679419390C8423A7F9E3D5292C54A /* Pods-SkyGo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyGo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6B2A97CC0CE38BEE68F9ADC0925988A /* Pods-SkyGoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyGoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBXML.xcconfig; sourceTree = "<group>"; };
+		C85CFA80817447802B20E9CDAB938935 /* Pods-SkyGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C923185E15E2F839AA90319EE42AE5B1 /* Pods-SkyGoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyGoTests-dummy.m"; sourceTree = "<group>"; };
+		DB2447499E0FADACE786DE7C77420CC4 /* Pods-SkyGoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyGoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB62E1EA64A122FDB8C7AC7B26E21697 /* Pods-SkyGo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyGo-resources.sh"; sourceTree = "<group>"; };
+		E071C1160FCA291C9C00977433E179B2 /* Pods-SkyGoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyGoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBXML-dummy.m"; sourceTree = "<group>"; };
+		EDA2C881F740F7383B1BDD05673BAB5F /* Pods-SkyGoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyGoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEE82F9F46ED4924C776B86EA888B065 /* Pods-SkyGoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyGoUITests-dummy.m"; sourceTree = "<group>"; };
+		F5D1F73883EF66BA782C9797BB548C53 /* Pods-SkyGoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyGoTests-resources.sh"; sourceTree = "<group>"; };
+		F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+HTTP.h"; path = "TBXML-Headers/TBXML+HTTP.h"; sourceTree = "<group>"; };
+		F9E1EF728192AEBF817E640C79F5F79B /* Pods-SkyGoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyGoTests-frameworks.sh"; sourceTree = "<group>"; };
+		FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479FCC8843F322C250C2DEA0EE4B234E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDABD69622F8852BE261190B75B564AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D861F1D46C9DF8E370BB82F2111C6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE8A4D4F60CC0F93139326D6ABA2A50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A7BBF6E9B4FF176DC83E78EFBD4F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287FD2AA8045087C5A984AE2F55FF89C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D7FE0701E95F17D7607C2114663E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AAEB87A4B5216DA80A3B33AC521040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E12D292DBDFC89B6DCA3089CD120D33 /* Pods-SkyGo */ = {
+			isa = PBXGroup;
+			children = (
+				B53679419390C8423A7F9E3D5292C54A /* Pods-SkyGo-acknowledgements.markdown */,
+				40A84AFDBB4707E7E705F23171406C20 /* Pods-SkyGo-acknowledgements.plist */,
+				053E057DE044383AEF71F0D3C393CF18 /* Pods-SkyGo-dummy.m */,
+				433C90E5BA2FB67D1A5E88EDFF255665 /* Pods-SkyGo-frameworks.sh */,
+				DB62E1EA64A122FDB8C7AC7B26E21697 /* Pods-SkyGo-resources.sh */,
+				3FAB63E1D47A46973FEFD5E41804C494 /* Pods-SkyGo.debug.xcconfig */,
+				A3C63786ADBCA7D283DAB9B7007E8563 /* Pods-SkyGo.release.xcconfig */,
+			);
+			name = "Pods-SkyGo";
+			path = "Target Support Files/Pods-SkyGo";
+			sourceTree = "<group>";
+		};
+		2B2E1A062E6484DA30232A3EE8379149 /* Pods-SkyGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2447499E0FADACE786DE7C77420CC4 /* Pods-SkyGoTests-acknowledgements.markdown */,
+				922A7119B4C794372D5CF48ABEBD5293 /* Pods-SkyGoTests-acknowledgements.plist */,
+				C923185E15E2F839AA90319EE42AE5B1 /* Pods-SkyGoTests-dummy.m */,
+				F9E1EF728192AEBF817E640C79F5F79B /* Pods-SkyGoTests-frameworks.sh */,
+				F5D1F73883EF66BA782C9797BB548C53 /* Pods-SkyGoTests-resources.sh */,
+				12A1AA9C6E2AAD401C08F5ECB326EF73 /* Pods-SkyGoTests.debug.xcconfig */,
+				A50AA3155A9ED578D88A7AB20BAB678F /* Pods-SkyGoTests.release.xcconfig */,
+			);
+			name = "Pods-SkyGoTests";
+			path = "Target Support Files/Pods-SkyGoTests";
+			sourceTree = "<group>";
+		};
+		364EBE82E6EAFE1A15E3DA736F94F900 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */,
+				FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */,
+				24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */,
+				45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */,
+				F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */,
+				2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */,
+				C3E8146F7432E53E9CD503B28478B428 /* Support Files */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */,
+				7ED885C975F33ABA1D1473EE14897F6F /* Products */,
+				D2CB165E410CF525539D5FF26099AA13 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8F292E096BD7ADA8E561543B7281FB /* Pods-SkyGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2A97CC0CE38BEE68F9ADC0925988A /* Pods-SkyGoUITests-acknowledgements.markdown */,
+				EDA2C881F740F7383B1BDD05673BAB5F /* Pods-SkyGoUITests-acknowledgements.plist */,
+				EEE82F9F46ED4924C776B86EA888B065 /* Pods-SkyGoUITests-dummy.m */,
+				E071C1160FCA291C9C00977433E179B2 /* Pods-SkyGoUITests-frameworks.sh */,
+				261B9636F9EF5619A156008183811F91 /* Pods-SkyGoUITests-resources.sh */,
+				3A97E35440BDF283D458912ED4C4388A /* Pods-SkyGoUITests.debug.xcconfig */,
+				C85CFA80817447802B20E9CDAB938935 /* Pods-SkyGoUITests.release.xcconfig */,
+			);
+			name = "Pods-SkyGoUITests";
+			path = "Target Support Files/Pods-SkyGoUITests";
+			sourceTree = "<group>";
+		};
+		7ED885C975F33ABA1D1473EE14897F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110347976932FB3A1092BAA7E61D39E6 /* libPods-SkyGo.a */,
+				4A7784489AD57ACB6FDEEC02B4712395 /* libPods-SkyGoTests.a */,
+				A599AFFC80AA8083A2DCEC14B6BF8B8E /* libPods-SkyGoUITests.a */,
+				9256512CD547F598B9305030E21704CF /* libTBXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364EBE82E6EAFE1A15E3DA736F94F900 /* TBXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3E8146F7432E53E9CD503B28478B428 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */,
+				E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */,
+				85930C4C75281FC1E2605BA4AC478E5E /* TBXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TBXML";
+			sourceTree = "<group>";
+		};
+		D2CB165E410CF525539D5FF26099AA13 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E12D292DBDFC89B6DCA3089CD120D33 /* Pods-SkyGo */,
+				2B2E1A062E6484DA30232A3EE8379149 /* Pods-SkyGoTests */,
+				7E8F292E096BD7ADA8E561543B7281FB /* Pods-SkyGoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B84A194BCD17BF903DEA581742F98832 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D98A05FD59919977CFE39500098610 /* TBXML+Compression.h in Headers */,
+				CD5FECDA13F1E860162D2D0164219E76 /* TBXML+HTTP.h in Headers */,
+				CB803CB5BCD319AAF77035867F7D550E /* TBXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		074A2D94BF6D830DB1B2AF3A46EC71CC /* Pods-SkyGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6175D6C80479E59C5723C114E6D041B /* Build configuration list for PBXNativeTarget "Pods-SkyGoTests" */;
+			buildPhases = (
+				07771A6F48CC25CE8BBBB194DA7798D6 /* Sources */,
+				479FCC8843F322C250C2DEA0EE4B234E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33976AA28B2D72260EC45ECEE1DCF0ED /* PBXTargetDependency */,
+			);
+			name = "Pods-SkyGoTests";
+			productName = "Pods-SkyGoTests";
+			productReference = 4A7784489AD57ACB6FDEEC02B4712395 /* libPods-SkyGoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26685E672DADD2863E1AF133DEDBD382 /* Pods-SkyGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918829B9971B29B4D8CDC2A89F6CCDB0 /* Build configuration list for PBXNativeTarget "Pods-SkyGoUITests" */;
+			buildPhases = (
+				5BFEEAB9A8E6CE45DFE6560D306842DD /* Sources */,
+				6D861F1D46C9DF8E370BB82F2111C6C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22350CD04402263E228C5F5ECF1506A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SkyGoUITests";
+			productName = "Pods-SkyGoUITests";
+			productReference = A599AFFC80AA8083A2DCEC14B6BF8B8E /* libPods-SkyGoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57881A6379818927A70831B4C00BDD6E /* TBXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904AB16123DD33F9F38E03F6CE72688E /* Build configuration list for PBXNativeTarget "TBXML" */;
+			buildPhases = (
+				E676DFF8959CAE2C86CEF7EC8AE91945 /* Sources */,
+				89A7BBF6E9B4FF176DC83E78EFBD4F63 /* Frameworks */,
+				B84A194BCD17BF903DEA581742F98832 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBXML;
+			productName = TBXML;
+			productReference = 9256512CD547F598B9305030E21704CF /* libTBXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E24EF0207341CD4BAF54CFAA6635265 /* Pods-SkyGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31DB6C2630ADE7654CFDDA0954F017E /* Build configuration list for PBXNativeTarget "Pods-SkyGo" */;
+			buildPhases = (
+				948D08D7141485D95F2587E0F1439231 /* Sources */,
+				A2D7FE0701E95F17D7607C2114663E1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3909FB15001DE3A6458B0CD9092E74 /* PBXTargetDependency */,
+			);
+			name = "Pods-SkyGo";
+			productName = "Pods-SkyGo";
+			productReference = 110347976932FB3A1092BAA7E61D39E6 /* libPods-SkyGo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7ED885C975F33ABA1D1473EE14897F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E24EF0207341CD4BAF54CFAA6635265 /* Pods-SkyGo */,
+				074A2D94BF6D830DB1B2AF3A46EC71CC /* Pods-SkyGoTests */,
+				26685E672DADD2863E1AF133DEDBD382 /* Pods-SkyGoUITests */,
+				57881A6379818927A70831B4C00BDD6E /* TBXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07771A6F48CC25CE8BBBB194DA7798D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822CF9E92DB90009DEBCC1D73F4A82D5 /* Pods-SkyGoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFEEAB9A8E6CE45DFE6560D306842DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC66EA226F00B9C3C6BBA1EE3B3E1FBE /* Pods-SkyGoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948D08D7141485D95F2587E0F1439231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F389733E84188BFDDDFB4766188FC67 /* Pods-SkyGo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E676DFF8959CAE2C86CEF7EC8AE91945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562E25D956533B83AA2EFF415F83D5DE /* TBXML+Compression.m in Sources */,
+				182E3526C9B2A37086DA88D03D4A991E /* TBXML+HTTP.m in Sources */,
+				4A92A2AF865C84DF5602A8341A02514F /* TBXML-dummy.m in Sources */,
+				8171EC78ECE71947090E1B090424E439 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22350CD04402263E228C5F5ECF1506A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = 57881A6379818927A70831B4C00BDD6E /* TBXML */;
+			targetProxy = 224414AA22AF8FE1677D2506A181076C /* PBXContainerItemProxy */;
+		};
+		33976AA28B2D72260EC45ECEE1DCF0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = 57881A6379818927A70831B4C00BDD6E /* TBXML */;
+			targetProxy = 2EE91F23238C64FF20A1ECD6D2018E0E /* PBXContainerItemProxy */;
+		};
+		8D3909FB15001DE3A6458B0CD9092E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = 57881A6379818927A70831B4C00BDD6E /* TBXML */;
+			targetProxy = 51FDC2D8BE16EE214D76105330890E67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1DE86D7E8325CD631F41D4761B6985EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAB63E1D47A46973FEFD5E41804C494 /* Pods-SkyGo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		436050BAEA51145270E0A2A16A0298A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A1AA9C6E2AAD401C08F5ECB326EF73 /* Pods-SkyGoTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E2B0532781ABB465D68AFB97760834B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85CFA80817447802B20E9CDAB938935 /* Pods-SkyGoUITests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		661FFD91595B5ED9C360DC825E3B6701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C63786ADBCA7D283DAB9B7007E8563 /* Pods-SkyGo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9797147BFF15910627713B851EA26000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBXML/TBXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C6B9AE871AB032A4F6AFA0B0F1990A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50AA3155A9ED578D88A7AB20BAB678F /* Pods-SkyGoTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD426654DE35CCA539FCC56C744400C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBXML/TBXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E73DDAC758196D99606256E58F1DB3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A97E35440BDF283D458912ED4C4388A /* Pods-SkyGoUITests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904AB16123DD33F9F38E03F6CE72688E /* Build configuration list for PBXNativeTarget "TBXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9797147BFF15910627713B851EA26000 /* Debug */,
+				CD426654DE35CCA539FCC56C744400C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918829B9971B29B4D8CDC2A89F6CCDB0 /* Build configuration list for PBXNativeTarget "Pods-SkyGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73DDAC758196D99606256E58F1DB3CD /* Debug */,
+				5E2B0532781ABB465D68AFB97760834B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6175D6C80479E59C5723C114E6D041B /* Build configuration list for PBXNativeTarget "Pods-SkyGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436050BAEA51145270E0A2A16A0298A4 /* Debug */,
+				C6B9AE871AB032A4F6AFA0B0F1990A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31DB6C2630ADE7654CFDDA0954F017E /* Build configuration list for PBXNativeTarget "Pods-SkyGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE86D7E8325CD631F41D4761B6985EC /* Debug */,
+				661FFD91595B5ED9C360DC825E3B6701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
